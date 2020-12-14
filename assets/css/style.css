@@ -47,7 +47,8 @@
 }
 
 .navbar {
-    color: #fff;
+    opacity: 0.7;
+    /*color: #fff;*/
 }
 
 .hamburger-icon {
