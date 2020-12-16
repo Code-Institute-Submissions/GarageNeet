@@ -41,24 +41,41 @@ Most of the images are supplied by the owner of the garage. Except the hero-imag
 
 # Features
 ## Existing Features 
-**1. Home page** 
+**Home page**
+
 The home page is designed in compliance of the branding of the garage. The actual logo is used on top of the page as a eye-catcher and give the users the awareness of the brand. Secondly, there is an hero-image to make it even more appealing for the users. By opening the website, the navigation bar is located underneath the hero-image. The navigation bar is "sticky" and stick on top of the page when the user is scrolling down. 
-**2. Services page** 
+
+**Services page** 
+
 The services page give the user information on the services offered at the garage. As background of this page a parallax effect was used to give the user a "real" look into the garage working place. 
-**3. About us page** 
+
+**About us page** 
+
 The about us page give the user general information about the garage, as well a table with the opening times is included in this page.
-**4. Occasions page**
+
+**Occasions page**
+
 At the occasions page there is an overview of the current cars on sale. The users should be able to toggle through the cars by clicking on the buttons with the names of the cars. The pictures of the car are shown in a carousel. Within this pictures should be a box with information on the car. 
-**5. Footer**
+
+**Footer**
+
 The footer will give links to the social platforms of the garage. Also the address details of the garage are shown in the footer. The footer is shown on the very bottom of the scroll-through page as well at the bottom of the occasions page. 
-**6. Contact form**
+
+**Contact form**
+
 In the navigation bar, footer, occasions page as well in the about us page are possibilities to contact us. This will lead for a modal to pop-up with a contact form. In the form, the user can select the subject of the question: services, occasions, other.
-### Features Left to Implement
-**1. Email functionality**
+
+## Features Left to Implement
+**Email functionality**
+
 The contact form is not wired up yet to send an email to the owner of the garage. This functionality is still left to be implemented. 
-**2. Database storage for occasions**
+
+**Database storage for occasions**
+
 The business owner had the wish to easily update their occasions on regular basis. This is not possible to achieve at this static website as there is no database storage for the cars which are on sale. The new features which is left to implement is an database with the cars and pictures stored which are shown on the occasions page. 
-**3. Upload page + login for owner**
+
+**Upload page + login for owner**
+
 Another left to implement features is the possibility to log-in as admin and have an upload page where they can upload there occasions text and images which will be stored in the database and shown on the occasions page. 
 
 # Technologies Used
