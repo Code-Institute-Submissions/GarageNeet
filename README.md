@@ -37,8 +37,9 @@ The red colour and blue colours are coming from the colours:
 ### Images
 Most of the images are supplied by the owner of the garage. Except the hero-image as this has to be a high-quality image and catchy. Only the most appealing pictures were used to make the website. 
 ### Wireframes
-***coming soon*** 
-
+<img src="assets/images/mockups-garage-neet.png"
+     alt="Mockup for website pages"
+     style="float: left; margin-right: 10px;" />
 # Features
 ## Existing Features 
 **Home page**
