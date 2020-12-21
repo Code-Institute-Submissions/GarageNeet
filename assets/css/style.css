@@ -10,8 +10,9 @@
     opacity: 0.8;
 }
 
-.brand-header h1{
-    color:red;
+.brand-header h1,
+.section h1{
+    color:#BF0D3E;
     text-transform: uppercase;
     text-align:center;
     font-weight: bold;
@@ -23,13 +24,13 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align:center;
-    color:#0056b3;
+    color:#00629B;
 }
 
 
 .section-spacer hr {
     margin:2px;
-    border-top: 8px solid red;
+    border-top: 8px solid #BF0D3E;
     padding:0;
 }
 
@@ -55,6 +56,43 @@
     color: #fff;
     font-weight: bold;
 }
+
+ .nav-item::after {
+     content: '';
+     display: block;
+     width: 0px;
+     height: 2px;
+     background: #BF0D3E;
+     transition: 0.4s
+ }
+
+ .nav-item:hover::after {
+     width: 100%
+ }
+
+.navbar-nav .active>.nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .show>.nav-link,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar button:hover
+ {
+     color: #BF0D3E;
+ }
+
+ .navbar button
+ {
+     background-color: #00629B; 
+ }
+
+ .nav-link {
+     padding: 25px 5px;
+     transition: 0.2s
+ }
+
+
+
 
 
 .hero-image{
@@ -86,9 +124,6 @@
     text-align:center;
 }
 
-.content-container{
-    margin: 15px 0 15px 0;
-}
 
 .services-section{
     background: url("../images/maintenance-2.jpg");
@@ -103,9 +138,9 @@
 
 .content-box{
     border: 1px solid rgba(7, 1, 1);
-    box-shadow: 5px 10px 8px rgb(0, 0, 0);
+    box-shadow: 5px 15px 15px rgb(0, 0, 0);
     border-radius: 5px;
-    background-color: rgba(172, 156, 156, 0.8);
+    background-color: rgba(172, 156, 156, 1);
     margin-top:30px;
     margin-bottom:30px;
 }
@@ -113,10 +148,78 @@
 
 .about-us-section{
     background-image: linear-gradient(#060503, #fff6e0);
+}
 
+.media-section{
+     background-color: rgba(172, 156, 156, 0.5);
+}
+
+iframe{
+    position: relative;
+    height: 40vh;
+    width: 60%;
+    margin: 10px;
 }
 
 .footer{
-    height:25vh;
     background-color:black;
+}
+
+
+.social-links li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 5rem;
+    float: left;
+}
+
+
+.social-links i{
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.address-info-item{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    display: block;
+    clear:both;
+}
+
+
+.address-info-item .key,
+.address-info-item .value{
+    color: white;
+    padding-right: 8px;
+}
+
+.address-info-item p,
+.address-info-item p{
+    margin: 0;
+}
+
+.address-info-item .key{
+    width: 15%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.address-info-item .key p{
+    font-weight: 700;
+}
+
+.address-info-item .value{
+    position: relative;
+    width: 60%;
+}
+
+
+/* media-queries*/
+@media only screen and (max-width: 767px) {
+  .content-box {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
 }

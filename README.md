@@ -11,6 +11,7 @@ Main objectives:
 
 #### Access the project
 **Live:** ***coming soon***
+
 **Repository:** Click [here](https://github.com/Dutchie1990/GarageNeet) to access the GitHub project.
 
 # User Experience (UX)
@@ -30,7 +31,7 @@ Main objectives:
 #### Colours
 The main colours used at the website are based on the colours which are used for branding the company. The overall look of the website is a bit darkish to provide a manly atmosphere. 
 The red colour and blue colours are coming from the colours: 
-1. pantone 193 - HEX BF0D3E
+1. pantone 193 - HEX #BF0D3E
 2. pantone 3015 - HEX #00629B
 #### Typography
 ***Not decided yet***
@@ -87,3 +88,5 @@ Another left to implement features is the possibility to log-in as admin and hav
 
 # Credits
 https://dillinger.io/ for making ReadMe.md
+https://1map.com/map-embed for providing the map
+https://bbbootstrap.com/snippets/simple-navbar-hover-17011029 for effect at nav-bar
