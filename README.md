@@ -90,3 +90,5 @@ Another left to implement features is the possibility to log-in as admin and hav
 https://dillinger.io/ for making ReadMe.md
 https://1map.com/map-embed for providing the map
 https://bbbootstrap.com/snippets/simple-navbar-hover-17011029 for effect at nav-bar
+https://uicookies.com/css-hover-effects/ + https://www.youtube.com/watch?v=vBzrtrzlITE for zoom effect at images
+https://getbootstrap.com/docs/4.0/components/scrollspy/ for scrollspy

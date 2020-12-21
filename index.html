@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
     <div class="container-fluid">
         <!--Brand header-->
-        <div class="brand-header">
+        <div id="home" class="brand-header">
             <div class="brand-header-overlay">
                 <div class="brand-box section-spacer">
                     <hr>
@@ -22,7 +22,7 @@
                     <hr>
                     <h1>Garage Neet</h1>
                     <p>Occasions Services Maintaince</p>
-                    <p><small>Specialized in USA-CARS</small></p>
+                    <p>Specialized in USA-CARS</p>
                     <hr>
                     <hr>
                     <hr>
@@ -32,23 +32,23 @@
 
         <!--Navigation bar-->
         <header class="header sticky-top">
-            <nav class="navbar navbar-expand-md bg-dark">
+            <nav id="navbar" class="navbar navbar-expand-md bg-dark">
                 <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                           <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                    <ul  class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Occasions</a>
+                            <a class="nav-link" href="#about-us">About us</a>
                         </li>
-                                <li class="nav-item">
-                            <a class="nav-link" href="#">Media</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">Occasions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#media">Media</a>
                         </li>
                     </ul>
                     <div class="d-none d-md-block">
@@ -67,8 +67,9 @@
             <div class="container-overlay"></div>
         </section>
 
+
         <!--Services section-->
-        <section class="section services-section">
+        <section id="services" class="section services-section">
             <div class="row">
                 <div class="col-12 section-header">
                     <div class="section-spacer ">
@@ -109,14 +110,14 @@
                             Are you curious what we do have in stock? <br /><br />
                             <strong>Click
                                 on the button below</strong></p>
-                        <button class="btn btn-secondary" type="submit">Our recent occasions</button>
+                        <button class="occasions-button btn btn-secondary" type="submit">Our recent occasions</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--About us section-->
-        <section class="section about-us-section">
+        <section id="about-us" class="section about-us-section">
             <div class="row">
                 <div class="col-12 section-header">
                     <div class="section-spacer ">
@@ -143,8 +144,8 @@
                         <strong>If you have any questions, contact <a href="#">us</a>.</strong></p>
                 </div>
                 <div class="col-lg-3 col-md-8  col-xs-6 offset-lg-2 offset-md-2 content-box">
-                    <h2><i class="fas fa-clock"></i> Times</h2>
-                    <table class="table table-sm">
+                    <h2><i class="fas fa-clock"></i> Opening times</h2>
+                    <table id="timetable" class="table table-sm">
 
                         <tbody>
                             <tr>
@@ -186,29 +187,29 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-2">
-                    <img class="img-fluid" src="assets/images/maintenance-3.jpg" alt="">
+                <div class="col-lg-2 col-md-4 d-none d-md-block overflow-hidden">
+                    <img id="first-picture" class="about-us-picture" src="assets/images/maintenance-3.jpg" alt="">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="assets/images/maintenance-4.jpg" alt="">
+                <div class="col-lg-2 col-md-4 d-none d-md-block overflow-hidden">
+                    <img class="about-us-picture" src="assets/images/maintenance-4.jpg" alt="">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="assets/images/maintenance-1.jpg" alt="">
+                <div class="col-lg-2 d-none d-lg-block overflow-hidden">
+                    <img class="about-us-picture" src="assets/images/maintenance-1.jpg" alt="">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="assets/images/maintenance-5.jpg" alt="">
+                <div class="col-lg-2 d-none d-lg-block overflow-hidden">
+                    <img class="about-us-picture" src="assets/images/maintenance-5.jpg" alt="">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="assets/images/maintenance-6.jpg" alt="">
+                <div class="col-lg-2 col-md-4 d-none d-md-block overflow-hidden ">
+                    <img id="last-picture-md" class="about-us-picture" src="assets/images/maintenance-6.jpg" alt="">
                 </div>
-                <div class="col-2">
-                    <img class="img-fluid" src="assets/images/maintenance-7.jpg" alt="">
+                <div class="col-lg-2 d-none d-lg-block overflow-hidden ">
+                    <img id="last-picture" class="about-us-picture" src="assets/images/maintenance-7.jpg" alt="">
                 </div>
             </div>
         </section>
 
         <!--media section-->
-        <section class="section media-section">
+        <section id="media" class="section media-section">
             <div class="row">
                 <div class="col-12 section-header">
                     <div class="section-spacer ">
@@ -240,6 +241,7 @@
                 </div>
             </div>
         </section>
+        </div>
 
         <footer class="footer">
             <div class="row">
@@ -252,7 +254,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col">
+                    <div class="spacer"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-6">
                     <div class="address-info-item">
                         <div class="key">
                             <p>Address:</p>
@@ -287,7 +294,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 d-none d-md-block">
                     <div id="wrapper-1">
                         <div id="map-1"></div>
                         <script>(function () {
@@ -307,10 +314,13 @@
                             })();</script><a href="https://1map.com/map-embed">1 Map</a>
                     </div>
                 </div>
-                <div class="col-5 d-flex justify-content-end">
-                    <div class="col social-links d-flex justify-content-center">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="col social-links">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col d-flex justify-content-center">
+                                <h3>Social links</h3>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
                                 <ul>
                                     <li>
                                         <a href=""><i class="fab fa-facebook"></i></a>
@@ -327,6 +337,13 @@
                     </div>
                 </div>
             </div>
+            <div class="row ">
+                <div class="col justify-content-center copyright">
+                    <p>Copyright © 21-12-2020 Garage Neet Zevenhuizen</p>
+                    <br />
+                    <p>Made by Daniel Boone</p>
+                </div>
+            </div>
         </footer>
 
         <!--Scripts for Bootstrap-->
@@ -340,7 +357,6 @@
             integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
             </script>
         <script src="https://kit.fontawesome.com/402ab2e351.js" crossorigin="anonymous"></script>
-    </div>
 </body>
 
 </html>
