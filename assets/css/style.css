@@ -158,11 +158,16 @@ button{
 }
 
 .content-box{
+ margin-top:3.0rem;
+}
+
+.content-box,
+.car-info-box{
     border: 0.1rem solid rgba(199, 184, 183,0.5);
     box-shadow: 0.5rem 0.75rem 0.75rem rgb(199, 184, 183);
     border-radius: 0.5rem;
     background-color: rgba(172, 156, 156, 1);
-    margin-top:3.0rem;
+   
     margin-bottom:3.0rem;
 }
 
@@ -191,7 +196,8 @@ button{
 }
 
 
-.about-us-section{
+.about-us-section,
+.occasions-section{
     background-image: linear-gradient(#060503, #fff6e0);
 }
 
@@ -223,7 +229,9 @@ button{
     overflow: hidden;
 }
 
-.media-section{
+.media-section,
+.car-info-box
+{
      background-color: rgba(172, 156, 156, 0.5);
 }
 
@@ -341,11 +349,23 @@ iframe{
     }
 }
 
+@media only screen and (max-width: 1160px) {
+       .test{
+           flex-direction: column;
+    }
+}
+
 
 .carousel-item img{
     max-height:60vh;
-    max-width: auto;
-    margin-bottom: 2rem;
+    max-width: 95%;
+    margin-left:1rem;
+    margin-bottom: 5rem;
+
+    border: 0.1rem solid rgba(199, 184, 183,0.5);
+    box-shadow: 0.5rem 0.75rem 0.75rem rgb(199, 184, 183);
+    border-radius: 0.5rem;
+   
 }
 
 .carousel-indicators{
@@ -362,7 +382,7 @@ input[type="radio"] {
 /* FILTERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .filters {
-  text-align: left;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -387,59 +407,6 @@ input[type="radio"] {
 }
 
 
-/* FILTERED ELEMENTS (POSTS)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.posts {
-    display: grid;
-  grid-gap: 1.5rem;
-  grid-template-columns: repeat(1, 1fr);
-  list-style: none;
-}
-
-.posts .post {
-  background: #fafafa;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.posts .post-title {
-  font-size: 1.3rem;
-}
-
-.posts .post-title:hover {
-  text-decoration: underline;
-}
-
-.posts figcaption {
-  padding: 1rem;
-}
-
-.posts .post-categories {
-  margin-bottom: 0.75rem;
-  font-size: 0.75rem;
-}
-
-/*.posts .post-categories * {
-  display: inline-block;
-}*/
-
-.posts .post-categories li {
-  margin-bottom: 0.2rem;
-}
-
-.posts .post-categories a {
-  padding: 0.2rem 0.5rem;
-  border-radius: 1rem;
-  border: 1px solid;
-  line-height: normal;
-  transition: all 0.1s;
-}
-
-.posts .post-categories a:hover {
-  background: var(--green);
-  color: var(--white);
-}
-
-
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [value="Car-a"]:checked ~ .filters [for="Car-a"],
@@ -457,3 +424,14 @@ input[type="radio"] {
    display: none;
 }
 
+.car-info-box p,
+.car-info-box strong{
+    font-size: 1.5rem;
+}
+
+.car-info-box{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    max-width: 95%;
+    padding: 2rem;
+}
