@@ -52,7 +52,8 @@
                         </li>
                     </ul>
                     <div class="d-none d-md-block">
-                        <button class="btn btn-secondary" type="button">Contact us</button>
+                        <button class="btn btn-secondary" type="button" data-toggle="modal"
+                            data-target="#staticBackdrop">Contact us</button>
                     </div>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
@@ -142,7 +143,8 @@
                         In addition, you can also contact us to buy an USA-CAR or help us find spare parts.
                         <br />
                         <br>
-                        <strong>If you have any questions, contact <a href="#">us</a>.</strong></p>
+                        <strong>If you have any questions, contact <a href="#" data-toggle="modal"
+                            data-target="#staticBackdrop">us</a>.</strong></p>
                 </div>
                 <div class="col-lg-3 col-md-8  col-xs-6 offset-lg-2 offset-md-2 content-box">
                     <h2><i class="fas fa-clock"></i> Opening times</h2>
@@ -237,12 +239,15 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <p>Credits:<a href="https://www.youtube.com/channel/UCDb23W25S97ssUCC5aqL7eA"><p>Lars Mars Cars</p></a>
+                    <p>Credits:<a href="https://www.youtube.com/channel/UCDb23W25S97ssUCC5aqL7eA">
+                            <p>Lars Mars Cars</p>
+                        </a>
                     </p>
                 </div>
             </div>
         </section>
     </div>
+
 
     <footer class="footer">
         <div class="row">
@@ -316,30 +321,30 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-12 social-links">
-                    <div class="row">
-                        <div class="col d-flex justify-content-center">
-                            <h2>Social links</h2>
-                        </div>
-                        <div class="col-12 d-flex justify-content-center">
-                            <ul>
-                                <li>
-                                    <a href=""><i class="fab fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                    <a href=""><i class="fas fa-envelope"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://api.whatsapp.com/send?phone=+66945477860"><i
-                                            class="fab fa-whatsapp"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <h2>Social links</h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <ul>
+                            <li>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fas fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=+66945477860"><i
+                                        class="fab fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
         <div class="row ">
             <div class="col justify-content-center copyright">
                 <p>Copyright © 21-12-2020 Garage Neet Zevenhuizen</p>
@@ -348,6 +353,35 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Send us a message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+
+                        <input type="submit" value="Submit" data-dismiss="modal">
+                    </form>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
