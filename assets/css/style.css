@@ -38,7 +38,6 @@ body {
     opacity: 0.8;
 }
 
-
 .brand-header p
 {
     font-weight: bold;
@@ -46,7 +45,6 @@ body {
     text-align:center;
     color:#00629B;
 }
-
 
 .section-spacer hr {
     margin:0.2rem;
@@ -107,15 +105,24 @@ button{
 
  .navbar button:hover,
  .occasions-button:hover,
- .filter label:hover
+ .submit-button:hover{
+    background-color: #00629B; 
+ }
+
+ .navbar button:hover,
+ .occasions-button:hover,
+ .filter label:hover,
+ .modal-header span:hover,
+ .submit-button:hover
  {
-     background-color: #00629B; 
+     
      border-color: #BF0D3E;
      color: #BF0D3E;
  }
 
  .navbar button,
  .occasions-button,
+ .submit-button,
  .filter label
  {
      background-color: #00629B; 
@@ -151,11 +158,9 @@ button{
     opacity: 0.2;
 }
 
-
 .section-header{
     text-align:center;
 }
-
 
 .services-section{
     background: url("../images/maintenance-2.jpg");
@@ -237,7 +242,6 @@ iframe{
     height: 40vh;
     width: 60%;
     margin: 10px;
-
     border: 0.1rem solid rgba(199, 184, 183,0.5);
     box-shadow: 0.5rem 0.75rem 0.75rem rgb(199, 184, 183);
     border-radius: 0.5rem;
@@ -251,14 +255,11 @@ iframe{
     margin-top: 3.5rem;
 }
 
-
-
 .social-links li{
     list-style-type: none;
     display: inline-block;
     padding-right: 5rem;
 }
-
 
 .social-links i,
 .social-links h3{
@@ -345,9 +346,6 @@ iframe{
     padding: 2rem;
 }
 
-
-
-
 /* FILTERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .filters {
@@ -372,17 +370,10 @@ iframe{
   border: 1px solid transparent;
 }
 
-
-input[type="radio"] {
+.filter input[type="radio"] {
   position: absolute;
   left: -9999px;
 }
-
-
-
-
-
-
 
 /* MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -390,13 +381,13 @@ input[type="radio"] {
   .content-box {
     margin-left: 4.5rem;
     margin-right: 4.5rem;
-  }
+    }
   iframe{
     position: relative;
     height: 20vh;
     width: 80%;
     margin: 1rem;
-}
+    }
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -409,7 +400,6 @@ input[type="radio"] {
     }
 }
 
-
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [value="camaro"]:checked ~ .filters [for="camaro"],
@@ -420,12 +410,25 @@ input[type="radio"] {
   border-color: #BF0D3E;
 }
 
-
-
 [value="camaro"]:checked ~ article .row:not([data-category~="camaro"]),
 [value="camaro-1"]:checked ~ article .row:not([data-category~="camaro-1"]),
 [value="cadillac"]:checked ~ article .row:not([data-category~="cadillac"])
 
  {
    display: none;
+}
+
+/* MODAL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.form-group label{
+    font-size: 1.5rem;
+}
+
+.modal-content{
+    background-image: linear-gradient( #fff6e0, #060503);
+}
+
+.modal-header span{
+    font-size: 2rem;;
 }

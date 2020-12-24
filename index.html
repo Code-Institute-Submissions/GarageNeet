@@ -70,7 +70,7 @@
 
 
         <!--Services section-->
-        <section id="services" class="section services-section">
+        <section class="section services-section">
             <div class="row">
                 <div class="col-12 section-header">
                     <div class="section-spacer ">
@@ -144,7 +144,7 @@
                         <br />
                         <br>
                         <strong>If you have any questions, contact <a href="#" data-toggle="modal"
-                            data-target="#staticBackdrop">us</a>.</strong></p>
+                                data-target="#staticBackdrop">us</a>.</strong></p>
                 </div>
                 <div class="col-lg-3 col-md-8  col-xs-6 offset-lg-2 offset-md-2 content-box">
                     <h2><i class="fas fa-clock"></i> Opening times</h2>
@@ -360,24 +360,70 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Send us a message</h5>
+                    <h3 class="modal-title" id="staticBackdropLabel">Send us a message</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
 
-                        <input type="submit" value="Submit" data-dismiss="modal">
-                    </form>
-                </div>
-                <div class="modal-footer">
+                    <div class="contact">
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <div class="contact-form">
+                                        <div class="form-group">
+                                            <label class="control-label" for="fname">First Name:</label>
+                                            <div class="col">
+                                                <input type="text" class="form-control" id="fname"
+                                                    placeholder="Enter First Name" name="fname" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label" for="lname">Last Name:</label>
+                                            <div class="col">
+                                                <input type="text" class="form-control" id="lname"
+                                                    placeholder="Enter Last Name" name="lname" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label" for="email">Email:</label>
+                                            <div class="col">
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="Enter email" name="email" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
 
+                                            <input type="radio" id="services" name="subject" value="services" required>
+                                            <label for="services">Services</label>
+
+
+                                            <input type="radio" id="occasions" name="subject" value="occasions"
+                                                required>
+                                            <label for="occasions">Occasions</label>
+
+                                            <input type="radio" id="both" name="subject" value="other" required>
+                                            <label for="other">Others</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label" for="comment">Your question:</label>
+                                            <div class="col">
+                                                <textarea class="form-control" rows="5" id="comment"
+                                                    required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col">
+                                                <button type="submit"
+                                                    class="btn  btn-secondary submit-button">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
