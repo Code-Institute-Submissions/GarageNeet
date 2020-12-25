@@ -39,7 +39,7 @@
                             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="#services-section">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about-us">About us</a>
@@ -70,7 +70,7 @@
 
 
         <!--Services section-->
-        <section class="section services-section">
+        <section id="services-section" class="section services-section">
             <div class="row">
                 <div class="col-12 section-header">
                     <div class="section-spacer ">
@@ -366,62 +366,55 @@
                     </button>
                 </div>
                 <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <form>
+                                <div class="contact-form">
+                                    <label class="control-label" for="fname">First Name:</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="fname"
+                                            placeholder="Enter First Name" name="fname" required>
+                                    </div>
+                                    <label class="control-label" for="lname">Last Name:</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                                            name="lname" required>
+                                    </div>
+                                    <label class="control-label" for="email">Email:</label>
+                                    <div class="col">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                            name="email" required>
+                                    </div>
 
-                    <div class="contact">
-                        <div class="row">
-                            <div class="col">
-                                <form>
-                                    <div class="contact-form">
-                                        <div class="form-group">
-                                            <label class="control-label" for="fname">First Name:</label>
-                                            <div class="col">
-                                                <input type="text" class="form-control" id="fname"
-                                                    placeholder="Enter First Name" name="fname" required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" for="lname">Last Name:</label>
-                                            <div class="col">
-                                                <input type="text" class="form-control" id="lname"
-                                                    placeholder="Enter Last Name" name="lname" required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" for="email">Email:</label>
-                                            <div class="col">
-                                                <input type="email" class="form-control" id="email"
-                                                    placeholder="Enter email" name="email" required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="radio" id="services" name="subject" value="services" required>
-                                            <label for="services">Services</label>
-
-
-                                            <input type="radio" id="occasions" name="subject" value="occasions"
-                                                required>
-                                            <label for="occasions">Occasions</label>
-
-                                            <input type="radio" id="both" name="subject" value="other" required>
-                                            <label for="other">Others</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" for="comment">Your question:</label>
-                                            <div class="col">
-                                                <textarea class="form-control" rows="5" id="comment"
-                                                    required></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col">
-                                                <button type="submit"
-                                                    class="btn  btn-secondary submit-button">Submit</button>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" id="services" name="subject" value="services" required>
+                                        <label class="control-label" for="services">Services</label>
+                                        <input type="radio" id="occasions" name="subject" value="occasions" required>
+                                        <label class="control-label" for="occasions">Occasions</label>
+                                        <input type="radio" id="both" name="subject" value="other" required>
+                                        <label class="control-label" for="other">Others</label>
+                                        <div class="occasions-form-group">
+                                            <p>About which car do you want more information?</p>
+                                            <input type="radio" id="camaro" name="car" value="camaro">
+                                            <label class="control-label" for="services">Camaro-1968</label>
+                                            <input type="radio" id="camaro-1" name="car" value="camaro-1">
+                                            <label class="control-label" for="occasions">Camaro 1976</label>
+                                            <input type="radio" id="cadillac" name="car" value="cadillac">
+                                            <label class="control-label" for="other">Cadillac</label>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
+
+                                    <div>
+                                        <label class="control-label" for="comment">Your question:</label>
+                                        <div class="col"></div>
+                                        <textarea class="form-control" rows="5" id="comment" required></textarea>
+                                    </div>
+
+                                    <div class="col">
+                                        <button type="submit" class="btn  btn-secondary submit-button">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

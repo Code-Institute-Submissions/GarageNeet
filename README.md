@@ -84,6 +84,20 @@ Another left to implement features is the possibility to log-in as admin and hav
 
 # Testing
 
+Manual testing: 
+
+Bug: When modal opens, the navbar expands outside the container
+
+Bug: When scrolling down there is a white space in the background of the services page on small screens only
+
+Bug: The footer of the index.html is bigger than the container
+
+Bug: Services link is broken.
+
+There were multiple elements with an id of services. I renamed the section id to #services-section to fix the bug. This change was made to index.html as well to the linking elements of occasions.html.
+
+
+
 # Deployment
 
 # Credits

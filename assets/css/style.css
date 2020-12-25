@@ -421,14 +421,25 @@ iframe{
 /* MODAL
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.form-group label{
+.control-label{
     font-size: 1.5rem;
+    margin:1rem;
 }
 
 .modal-content{
     background-image: linear-gradient( #fff6e0, #060503);
+    border: none;
 }
 
 .modal-header span{
     font-size: 2rem;;
+}
+
+.occasions-form-group
+{
+    display: none;
+}
+
+input[id="occasions"]:checked ~ .occasions-form-group {
+    display: block;
 }
