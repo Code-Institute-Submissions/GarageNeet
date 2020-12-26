@@ -1,31 +1,34 @@
 # Website for GARAGE NEET
 
-Images coming soon
+<img src="assets/images/readme-images/website-overview.png"
+     alt="Website on different platforms"
+     style="float: left; margin-right: 10px; margin-bottom: 10px;" />
 
 
 # GARAGE NEET 
-Garage Neet is a website to present a garage specialized in in USA-CARS on the web. The main goal of the website is to give information about the services offered at the garage, as well attract new customers, and update customers about the newest occasions. Garage Neet is an existing garage and also the inspiration of this project. Currently, their website is very outdated and needed some restyle thus, this project came alive. 
-This project is created as the first Milestone Project for Full Stack Web Development Course at Code Institute. 
-Main objectives: 
--	objectives from code institute. 
+GARAGE NEET is a website to present a garage specialized in in USA-CARS on the web. 
+The main goal of the website is to give information about the services offered at the garage, as well attract new customers, and update customers about the newest occasions. 
+GARAGE NEET is an existing garage and also the inspiration of this project. 
+Currently, their website is very outdated and needed some restyle thus, this project came alive. 
 
 #### Access the project
-**Live:** ***coming soon***
+**Live:** Click [here](https://dutchie1990.github.io/GarageNeet/occasions.html#occasions) to access the live website.
 
 **Repository:** Click [here](https://github.com/Dutchie1990/GarageNeet) to access the GitHub project.
 
 # User Experience (UX)
 
 ##  User stories
-- As a **new user**, I should be able get an overview of the services offered by Garage Neet. 
-- As a **new user**, I should be able to navigate through the website easily. 
-- As a **new user**, I should be able to easily link to social media pages of Garage Neet. 
+- As a **new user**, I want get an overview of the services offered by GARAGE NEET, so I decide if their services fits my needs. 
+- As a **new user**, I want to navigate through the website easily,  so i can easily search the content I want to see. 
+- As a **new user**, I want links to social media pages of GARAGE NEET, so I can engage with GARAGE NEET. 
     
-- As a **potential car buyer**, I should get an overview of the current occasions with comprehensive information and images. 
+- As a **potential car buyer**, I want an overview of the current occasions with comprehensive information and images, so can be be up to date with the occasions easily. 
 
-- As a **business owner**, I have to give an overview of all the services offered at the garage.
-- As a **business owner**, I have to give information about my opening times.
-- As a **business owner**, I have to give information about address of the garage.
+- As a **business owner**, I have to give an overview of all the services offered at the garage, so I can inform potential customers.
+- As a **business owner**, I have to give information about my opening times, so I can inform potential customers what times they can come by.
+- As a **business owner**, I have to give information about address of the garage, so I refer to my website to see my location information.
+- As a **business owner**, I have to give the opportunity to contact the garage, so customers can easily contact us.
  
 ## Design
 #### Colours
@@ -34,22 +37,28 @@ The red colour and blue colours are coming from the colours:
 1. pantone 193 - HEX #BF0D3E
 2. pantone 3015 - HEX #00629B
 #### Typography
-***Not decided yet***
+The chosen typography for all the text is Arial, Helvetica, sans-serif to comply with the branding of the company. As well to increase the attractiveness of the website. 
 ### Images
 Most of the images are supplied by the owner of the garage. Except the hero-image as this has to be a high-quality image and catchy. Only the most appealing pictures were used to make the website. 
 ### Wireframes
-<img src="assets/images/mockups-garage-neet.png"
+<img src="assets/images/readme-images/mockups-garage-neet.png"
      alt="Mockup for website pages"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px; margin-bottom: 10px;" />
+
 # Features
+
 ## Existing Features 
+
 **Home page**
 
-The home page is designed in compliance of the branding of the garage. The actual logo is used on top of the page as a eye-catcher and give the users the awareness of the brand. Secondly, there is an hero-image to make it even more appealing for the users. By opening the website, the navigation bar is located underneath the hero-image. The navigation bar is "sticky" and stick on top of the page when the user is scrolling down. 
+The home page is designed in compliance of the branding of the garage. The actual logo is used on top of the page as a eye-catcher and give the users the awareness of the brand. 
+Secondly, there is an hero-image to make it even more appealing for the users. By opening the website, the navigation bar is located underneath the hero-image. 
+The navigation bar is "sticky" and stick on top of the page when the user is scrolling down. 
 
 **Services page** 
 
-The services page give the user information on the services offered at the garage. As background of this page a parallax effect was used to give the user a "real" look into the garage working place. 
+The services page give the user information on the services offered at the garage. 
+The background of this page a parallax effect was used to give the user a "real" look into the garage working place. 
 
 **About us page** 
 
@@ -57,15 +66,23 @@ The about us page give the user general information about the garage, as well a 
 
 **Occasions page**
 
-At the occasions page there is an overview of the current cars on sale. The users should be able to toggle through the cars by clicking on the buttons with the names of the cars. The pictures of the car are shown in a carousel. Within this pictures should be a box with information on the car. 
+At the occasions page there is an overview of the current cars on sale. 
+The users should be able to toggle through the cars by clicking on the buttons with the names of the cars. 
+The pictures of the car are shown in a carousel. Within this pictures should be a box with information on the car. 
 
 **Footer**
 
-The footer will give links to the social platforms of the garage. Also the address details of the garage are shown in the footer. The footer is shown on the very bottom of the scroll-through page as well at the bottom of the occasions page. 
+The footer will give links to the social platforms of the garage. Also the address details of the garage are shown in the footer. 
+The footer is shown on the very bottom of the scroll-through page as well at the bottom of the occasions page. 
+The footer also provide a map of the location of the garage at higher screen resolutions. 
+This functionality has been skipped at small screens as the footer expanded to unacceptable size.
 
 **Contact form**
 
-In the navigation bar, footer, occasions page as well in the about us page are possibilities to contact us. This will lead for a modal to pop-up with a contact form. In the form, the user can select the subject of the question: services, occasions, other.
+In the navigation bar, footer, occasions page as well in the about us page are possibilities to contact us. 
+This will lead for a modal to pop-up with a contact form. 
+In the form, the user can select the subject of the question: services, occasions, other. 
+When the user clicks the occasions checkbox, there will be another row of checkboxes where the user can choose the car where they have questions about. 
 
 ## Features Left to Implement
 **Email functionality**
@@ -84,12 +101,15 @@ Another left to implement features is the possibility to log-in as admin and hav
 
 # Testing
 
-Manual testing: 
+#### Manual testing: 
 
-Bug: When modal opens, the navbar expands outside the container
+##### Bug: Modal resize background and navbar
 
-This is caused by bootstrap modal. By setting properties:
-.modal-open
+When modal opens, the navbar and services background expands outside the container
+
+This is caused by bootstrap modal. The bug was fixed by adding the following styles to the stylesheet:
+
+```.modal-open
 {
     
     padding-right: 0 !important;
@@ -97,32 +117,73 @@ This is caused by bootstrap modal. By setting properties:
     overflow: visible;
 
 }
+```
+and 
 
-.sticky-top{
+```.sticky-top
+{
     padding-right: 0 !important;
     margin-right: 0 !important;
 }
+```
 
-the bug was fixed
+##### Bug: Scolling on small screen results in white space beneath services background
 
-Bug: When scrolling down there is a white space in the background of the services page on small screens only
+When scrolling down there is a white space in the background of the services page on small screens only.
+The bug is not fixed yet 
 
+##### Bug: The footer of the index.html is bigger than the container
 
-Bug: The footer of the index.html is bigger than the container
+The footer was not inside the container-fluid class. The bug was fixed by putting the footer inside the container class div.
 
-The footer was not inside the container-fluid class. The bug was fixed by putting the footer inside the container class div
-
-Bug: Services link is broken.
+##### Bug:  Services link is broken
 
 There were multiple elements with an id of services. I renamed the section id to #services-section to fix the bug. This change was made to index.html as well to the linking elements of occasions.html.
 
+##### Bug:  The hamburger icon of the dropdown navbar was moving down as well
+
+The position of the button in the Html file wasn't correct. It had to change above the link-items.
+
+#### User story testing: 
+
+- As a **new user**, I want get an overview of the services offered by GARAGE NEET, so I decide if their services fits my needs. 
+
+During development I implement a services section where the user can read about the services offered at GARAGE NEET. 
+
+- As a **new user**, I want to navigate through the website easily,  so i can easily search the content I want to see. 
+
+I have implemented a navbar to easily navigate through the website. 
+As well I applied scrollspy to discover the current location on the website of the user. 
+This helps the user orientate where there are in the website. 
+
+- As a **new user**, I want links to social media pages of GARAGE NEET, so I can engage with GARAGE NEET. 
+
+In the footer of the page different links to common social media platforms are provided. 
+All the links are opened in a different page to prevent the loss of the user.
+    
+- As a **potential car buyer**, I want an overview of the current occasions with comprehensive information and images, so can be be up to date with the occasions easily. 
+
+On the occasions page there is textual information provided as well visual information about the cars which are on sale. 
+The navigation is easy, by clicking on the buttons the car can be selected.
+
+- As a **business owner**, I have to give an overview of all the services offered at the garage, so I can inform potential customers.
+- As a **business owner**, I have to give information about my opening times, so I can inform potential customers what times they can come by.
+- As a **business owner**, I have to give information about address of the garage, so I refer to my website to see my location information.
+- As a **business owner**, I have to give the opportunity to contact the garage, so customers can easily contact us.
+ 
 
 
 # Deployment
 
 # Credits
 https://dillinger.io/ for making ReadMe.md
+
 https://1map.com/map-embed for providing the map
+
 https://bbbootstrap.com/snippets/simple-navbar-hover-17011029 for effect at nav-bar
+
 https://uicookies.com/css-hover-effects/ + https://www.youtube.com/watch?v=vBzrtrzlITE for zoom effect at images
+
 https://getbootstrap.com/docs/4.0/components/scrollspy/ for scrollspy
+
+http://stackoverflow.com for all kind of questions
