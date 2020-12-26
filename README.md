@@ -167,10 +167,30 @@ On the occasions page there is textual information provided as well visual infor
 The navigation is easy, by clicking on the buttons the car can be selected.
 
 - As a **business owner**, I have to give an overview of all the services offered at the garage, so I can inform potential customers.
+
+During development there is a services section added to provide information about the services of the garage. 
+This section is the first section the user scroll to when they open the site as it is the most important information.
+In this section there is also a link possibility to go to the occasions page which is the second most important page of the website. 
+
 - As a **business owner**, I have to give information about my opening times, so I can inform potential customers what times they can come by.
+
+In the about us section there is a timetable provided to give a clear overview of the opening times of the garage. 
+
 - As a **business owner**, I have to give information about address of the garage, so I refer to my website to see my location information.
+
+At bigger screensizes there is a embedded google map with the location on the garage as well the full adress which is also visible on smaller screens. 
+
 - As a **business owner**, I have to give the opportunity to contact the garage, so customers can easily contact us.
- 
+
+At serveral places at the website there is possiblity to get in contact with the garage. 
+Firstly, at the navbar there is always the possibility to hit the contact us button.
+Furthermore, in the about us section there is a link to contact the garage. 
+Lastly, at the occasions page its is possible to enquire information about the occasion.
+
+ #### Validator 
+
+ When the code was checked by the html validator, there was a serieus issue with the index.html page. 
+ This was caused by the body was a child of a div element. 
 
 
 # Deployment

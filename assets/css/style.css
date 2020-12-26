@@ -429,11 +429,14 @@ iframe{
 
 .modal-open
 {
-    
     padding-right: 0 !important;
     margin-right: 0 !important;
     overflow: visible;
 
+}
+
+.modal{
+    width: 100vw;
 }
 
 .control-label{
