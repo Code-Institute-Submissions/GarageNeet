@@ -192,6 +192,8 @@ Lastly, at the occasions page its is possible to enquire information about the o
  When the code was checked by the html validator, there was a serieus issue with the index.html page. 
  This was caused by the body was a child of a div element. 
 
+ 
+
 
 # Deployment
 
