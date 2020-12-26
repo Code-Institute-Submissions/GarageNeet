@@ -88,9 +88,29 @@ Manual testing:
 
 Bug: When modal opens, the navbar expands outside the container
 
+This is caused by bootstrap modal. By setting properties:
+.modal-open
+{
+    
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    overflow: visible;
+
+}
+
+.sticky-top{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+the bug was fixed
+
 Bug: When scrolling down there is a white space in the background of the services page on small screens only
 
+
 Bug: The footer of the index.html is bigger than the container
+
+The footer was not inside the container-fluid class. The bug was fixed by putting the footer inside the container class div
 
 Bug: Services link is broken.
 

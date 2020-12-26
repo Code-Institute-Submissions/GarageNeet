@@ -58,6 +58,11 @@ body {
     width:100%;
 }
 
+.sticky-top{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
 .nav-link,
 button{
     color: #fff;
@@ -151,7 +156,6 @@ button{
     background-color:black;
     background-repeat: repeat;
     background-position: center;
-    background-size:cover;
     opacity: 0.2;
 }
 
@@ -181,7 +185,7 @@ button{
     border: 0.1rem solid rgba(199, 184, 183,0.5);
     box-shadow: 0.5rem 0.75rem 0.75rem rgb(199, 184, 183);
     border-radius: 0.5rem;
-    background-color: rgba(172, 156, 156, 1);
+    background-color: white;
     margin-bottom:3.0rem;
 }
 
@@ -387,6 +391,8 @@ iframe{
     width: 80%;
     margin: 1rem;
     }
+    .sticky-top{
+        top: 2.5rem;}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -423,8 +429,9 @@ iframe{
 .modal-open
 {
     
-    padding-right: 0;
-    margin-right: 0;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    overflow: visible;
 
 }
 
