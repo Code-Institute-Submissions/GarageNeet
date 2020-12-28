@@ -166,7 +166,7 @@ button{
 }
 
 .services-section{
-    background: url("../images/maintenance-2.jpg");
+    background: url("../images/maintenance.jpg");
     position: relative;
     height: auto;
     background-attachment: fixed;
@@ -462,6 +462,6 @@ iframe{
     display: none;
 }
 
-input[id="occasions"]:checked ~ .occasions-form-group {
+input[id="occasions-modal"]:checked ~ .occasions-form-group {
     display: block;
 }
