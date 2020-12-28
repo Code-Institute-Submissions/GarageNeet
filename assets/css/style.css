@@ -120,7 +120,7 @@ button{
  {
      
      border-color: #BF0D3E;
-     color: #BF0D3E;
+     color: black;
  }
 
  .navbar button,
@@ -381,6 +381,7 @@ iframe{
 
 /* MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 @media only screen and (max-width: 767.98px) {
   .content-box {
     margin-left: 4.5rem;
@@ -406,13 +407,31 @@ iframe{
     }
 }
 
+@media only screen and (max-width: 991px) and (orientation:landscape)
+{
+    .carousel-item{
+        width: 50%;
+        left:25%;
+    }
+}
+
+@media only screen and (max-width: 540px) and (orientation:landscape)
+{
+    .carousel-item{
+        width: 75%;
+        left:12.5%;
+    }
+}
+
+
+
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [value="camaro"]:checked ~ .filters [for="camaro"],
 [value="camaro-1"]:checked ~ .filters [for="camaro-1"],
 [value="cadillac"]:checked ~ .filters [for="cadillac"]
  {
-  color: #BF0D3E;
+  color: black;
   border-color: #BF0D3E;
 }
 
