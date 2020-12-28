@@ -237,6 +237,14 @@ Lastly, at the occasions page its is possible to enquire information about the o
  The warning about the h1 header in the sections was ignored. 
 
 
+#### Lighthouse
+
+<img src="assets/images/readme-images/lighthouse-result.png"
+     alt="Website on different platforms"
+     style="margin-right: 10px; margin-bottom: 10px;" />
+
+General speaking, I am happy with the results of lighthouse assesment of the website. The performance should be the next issue to concentrate on in order to further optimize the website. 
+
 # Deployment
 
 The website is deployed at Github pages under following url: https://dutchie1990.github.io/GarageNeet/index.html#home. 
