@@ -99,6 +99,38 @@ Another left to implement features is the possibility to log-in as admin and hav
 
 # Technologies Used
 
+#### Languages Used
+- HTML5
+- CSS3
+
+The filter effect in the modal and in the occasions page where coded by HTML and CSS only. 
+Based on the active checkboxes some content will be shown. 
+The idea for this methodology coming from: https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111
+
+The pop-up with the contact form is a bootstrap modal. 
+
+The navigation bar is a bootstrap navigation bar with sticky effect. 
+
+The scrollspy is also provided by bootstrap. 
+
+Furthermore, the layout is also based on bootstraps rows and collumns with some customized media queries.
+
+The logo of the company is made by html with some custom styling. 
+I have used the "hr-tag" to create the 3 lines in the logo and also applied it as a section seperator. 
+
+
+#### Frameworks, Libraries & Programs Used
+
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) for responsive design, navigation bar, popup modal, scrollspy and carousel. 
+- [Fontawesome](https://fontawesome.com/start) for all the icons used at the website.
+- [1Map](https://1map.com/map-embed) for providing embedded map.
+- [Github](https://github.com) used to save repository and deploy website.
+- [GitPod](https://gitpod.com) used as online IDE.
+- [Balsamiq](https://balsamiq.com/wireframes/desktop/#) to make wireframes.
+- Developer tools to test and inspect elements. 
+
+
+
 # Testing
 
 #### Manual testing: 
@@ -188,6 +220,11 @@ Furthermore, in the about us section there is a link to contact the garage.
 Lastly, at the occasions page its is possible to enquire information about the occasion.
 
  #### Validator 
+
+ As validators the validators of w3.org were used. 
+
+ - HTML validator - https://validator.w3.org/
+ - CSS validator - https://jigsaw.w3.org/css-validator/
 
  When the code was checked by the html validator, there was a serieus issue with the index.html page. 
  This was caused by the body was a child of a div element. Several errors were fixed which shown at HTML-validation. 
