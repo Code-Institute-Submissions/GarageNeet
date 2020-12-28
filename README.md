@@ -130,7 +130,7 @@ and
 ##### Bug: Scolling on small screen results in white space beneath services background
 
 When scrolling down there is a white space in the background of the services page on small screens only.
-The bug is not fixed yet 
+This bug is shown at certain times, during a meeting with the mentor the bug doesnt come up so this bug will be ignored for now.
 
 ##### Bug: The footer of the index.html is bigger than the container
 
@@ -190,12 +190,22 @@ Lastly, at the occasions page its is possible to enquire information about the o
  #### Validator 
 
  When the code was checked by the html validator, there was a serieus issue with the index.html page. 
- This was caused by the body was a child of a div element. 
-
- 
+ This was caused by the body was a child of a div element. Several errors were fixed which shown at HTML-validation. 
+ The warning about the h1 header in the sections was ignored. 
 
 
 # Deployment
+
+The website is deployed at Github pages under following url: https://dutchie1990.github.io/GarageNeet/index.html#home. 
+
+Steps to deploy: 
+- Go to github.com
+- Search for user: Dutchie1990
+- Search for repository: GarageNeet
+- Select the repository and navigate to settings
+- Scroll down to github pages section
+- Select master branch and choose for /root folder and click on save
+- After a few minutes the website is deployed at mentioned url. 
 
 # Credits
 https://dillinger.io/ for making ReadMe.md
