@@ -107,6 +107,10 @@ The filter effect in the modal and in the occasions page where coded by HTML and
 Based on the active checkboxes some content will be shown. 
 The idea for this methodology coming from: https://webdesign.tutsplus.com/tutorials/how-to-build-a-filtering-component-in-pure-css--cms-33111
 
+The zoom effect on the pictures in the about us section is based on the following tutorials: 
+
+https://uicookies.com/css-hover-effects/ + https://www.youtube.com/watch?v=vBzrtrzlITE 
+
 The pop-up with the contact form is a bootstrap modal. 
 
 The navigation bar is a bootstrap navigation bar with sticky effect. 
@@ -141,7 +145,8 @@ When modal opens, the navbar and services background expands outside the contain
 
 This is caused by bootstrap modal. The bug was fixed by adding the following styles to the stylesheet:
 
-```.modal-open
+```
+.modal-open
 {
     
     padding-right: 0 !important;
@@ -152,7 +157,8 @@ This is caused by bootstrap modal. The bug was fixed by adding the following sty
 ```
 and 
 
-```.sticky-top
+```
+.sticky-top
 {
     padding-right: 0 !important;
     margin-right: 0 !important;
@@ -245,14 +251,16 @@ Steps to deploy:
 - After a few minutes the website is deployed at mentioned url. 
 
 # Credits
-https://dillinger.io/ for making ReadMe.md
 
-https://1map.com/map-embed for providing the map
+#### Media 
 
-https://bbbootstrap.com/snippets/simple-navbar-hover-17011029 for effect at nav-bar
+The hero-image is dowloaded at the folllowing [location](https://www.wallpaperflare.com/classic-red-convertible-coupe-car-rims-red-cars-wallpaper-240619/1920x1080).
+All other media is provided by the busines owners. 
 
-https://uicookies.com/css-hover-effects/ + https://www.youtube.com/watch?v=vBzrtrzlITE for zoom effect at images
+#### Content
+All the content is written by me.
 
-https://getbootstrap.com/docs/4.0/components/scrollspy/ for scrollspy
-
-http://stackoverflow.com for all kind of questions
+#### Acknowledgments
+Thanks to my tutors and my mentor Spencer Barribal for valueable tips and tricks and helping me throughout the project. 
+I would also like to thank the community on Slack for valuble input regarding the project.
+Lastly, I want to thank my sister for providing a business cases to build the garage's website and my sister in law to walk through the website for testing. 
