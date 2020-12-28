@@ -31,8 +31,12 @@
         </div>
 
         <!--Navigation bar-->
-        <header class="header sticky-top">
+        <header class="header sticky-top" style="padding-right: 0rem !important; margin-right: 0px !important;">
             <nav id="navbar" class="navbar navbar-expand-md bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="hamburger-icon fa fa-bars" aria-hidden="true"></i></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
@@ -47,25 +51,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#media">Media</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="#occasions">Occasions</a>
                         </li>
                     </ul>
                     <div class="d-none d-md-block">
-                        <button class="btn btn-secondary" type="submit">Contact us</button>
+                        <button class="btn btn-secondary" type="button" data-toggle="modal"
+                            data-target="#staticBackdrop">Contact us</button>
                     </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span role="button"><i class="hamburger-icon fa fa-bars" aria-hidden="true"></i></span>
-                </button>
             </nav>
         </header>
-
-        <!--Hero image with overlay-->
-        <section class="hero-image">
-            <div class="container-overlay"></div>
-        </section>
 
         <section id="occasions" class="section occasions-section">
             <div class="section-spacer ">
